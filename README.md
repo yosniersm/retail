@@ -4,25 +4,23 @@
 
 # Retail API
 
-1. Clonar proyecto
-2. `yarn install`
-3. Clonar el archivo `.env.template` y renombrarlo a `.env`
-4. Cambiar las variables de entorno
-5. Levantar la base de datos
+1. Clone repo
+2. `npm  install`
+3. Copy `.env.template` file and rename to `.env`
+4. Change the environment variables
+5. Start up database
 
 ```
 docker-compose up -d
 ```
 
-6. Levantar:
+6. Run:
 
 ```
 npm run start:dev
-yarn start:dev
-
 ```
 
-7. Ejecutar SEED
+7. Setup API seed by making a request to:
 
 ```
 http://localhost:3000/api/seed
