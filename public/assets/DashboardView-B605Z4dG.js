@@ -1,1 +1,0 @@
-import{_ as r,c as s,o,a}from"./index-5SobYu43.js";const c={},t={class:"grid grid-cols-3 gap-6"};function n(d,e){return o(),s("div",t,e[0]||(e[0]=[a("div",{class:"h-24 col-span-1 bg-white border border-gray-300"},null,-1)]))}const l=r(c,[["render",n]]);export{l as default};
